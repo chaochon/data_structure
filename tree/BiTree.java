@@ -122,7 +122,6 @@ public class BiTree {
         }
 
         Queue<TreeNode> queue = new LinkedList<>();
-
         queue.add(root);
 
         while(queue.size()>0){

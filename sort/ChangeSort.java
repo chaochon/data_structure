@@ -104,7 +104,7 @@ public class ChangeSort {
 
         // 假设nums是基本满足堆定义的，除了对顶i需要调整
         int temp = nums[i];
-        for(int k = i*2+1; k<length; k= k*2+1){
+        for(int k = i*2+1; k < length; k = k*2+1){
             if(k+1<length&&nums[k]<nums[k+1])
                 k++;
             if(nums[k]>temp){

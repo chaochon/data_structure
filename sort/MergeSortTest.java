@@ -10,9 +10,7 @@ public class MergeSortTest {
         print(nums);
         System.out.print('\n');
 
-
         MSort(nums, 0, nums.length-1);
-
 
         System.out.print("  sorted nums: ");
         print(nums);
